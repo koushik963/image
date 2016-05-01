@@ -1,5 +1,5 @@
 
-package proj2;
+package ImageCompression;
 
 
 import java.io.BufferedOutputStream;
@@ -24,7 +24,7 @@ import java.util.Scanner;
 import Jama.Matrix;
 import Jama.SingularValueDecomposition;
 
-public class Proj2 {
+public class ImageCompression {
 
     static int height = 0, width = 0, max_pixel_value;
     public static String fileName;
